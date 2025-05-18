@@ -6,16 +6,16 @@
 
 body{
     background: hsl(30, 38%, 92%);
-    max-width: 60%;
+    max-width: 70%;
     height: 200px;
-    margin: 10px auto;
+    margin: auto;
     padding: 10em;
 }
 
 .container{
     display: flex;
     background: white;
-    max-width: 70%;
+    max-width: 60%;
     height: 420px;
     margin: auto;
     border-radius: 10px;
@@ -80,7 +80,14 @@ button{
     cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
+
+        img.desktop-image {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+        }
 
         .container {
             flex-direction: column;
